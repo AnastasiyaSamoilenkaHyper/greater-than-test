@@ -7,7 +7,6 @@ function render(data) {
   let employees = document.getElementById("list");
 
   data.forEach((employee) => {
-    console.log(employee);
     employeeDiv = document.createElement("div");
     employeeDiv.className = "empDiv";
     names = document.createElement("h1");
